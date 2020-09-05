@@ -4,8 +4,6 @@
       shell: brew update
     - name: brew upgrade
       shell: brew upgrade
-    - name: gem install rubygems-update
-      shell: gem install rubygems-update
     - name: gem update --system
       shell: gem update --system
     - name: brew cleanup
@@ -16,3 +14,4 @@
       shell: pyenv rehash
     - name: pip install --upgrade pip
       shell: pip install --upgrade pip
+
