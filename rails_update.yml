@@ -4,10 +4,6 @@
       shell: brew update
     - name: brew upgrade
       shell: brew upgrade
-    - name: gem update --system
-      shell: gem update --system
     - name: brew cleanup
       shell: brew cleanup
-    - name: gem cleanup
-      shell: gem cleanup
 
