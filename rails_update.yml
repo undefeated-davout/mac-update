@@ -6,4 +6,8 @@
       shell: brew upgrade
     - name: brew cleanup
       shell: brew cleanup
+    - name: anyenv update
+      shell: anyenv update
+    - name: pip install -U pip
+      shell: pip install -U pip
 
