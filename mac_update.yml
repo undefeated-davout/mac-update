@@ -10,4 +10,3 @@
       shell: anyenv update
     - name: pip install -U pip
       shell: pip install -U pip
-
