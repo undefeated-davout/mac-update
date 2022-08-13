@@ -1,4 +1,5 @@
 - hosts: localhost
+  gather_facts: false
   tasks:
     - name: brew update
       shell: brew update
