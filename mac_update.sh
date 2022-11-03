@@ -1,7 +1,13 @@
 #!/usr/bin/env bash
 
+echo '--------------------'
+
 echo 'execute: brew update'
 brew update
+echo '--------------------'
+
+echo 'execute: brew upgrade'
+brew upgrade
 echo '--------------------'
 
 echo 'execute: brew cleanup'
