@@ -1,23 +1,26 @@
 #!/usr/bin/env bash
 
-echo '--------------------'
-
+echo '-----------------------------'
 echo 'execute: brew update'
+echo '-----------------------------'
 brew update
-echo '--------------------'
 
+echo '-----------------------------'
 echo 'execute: brew upgrade'
+echo '-----------------------------'
+
 brew upgrade
-echo '--------------------'
-
+echo '-----------------------------'
 echo 'execute: brew cleanup'
+echo '-----------------------------'
 brew cleanup
-echo '--------------------'
 
+echo '-----------------------------'
 echo 'execute: anyenv update'
+echo '-----------------------------'
 anyenv update
-echo '--------------------'
 
+echo '-----------------------------'
 echo 'execute: pip install -U pip'
+echo '-----------------------------'
 pip install -U pip
-echo '--------------------'
